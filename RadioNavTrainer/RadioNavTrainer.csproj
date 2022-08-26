@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>RadioNavTrainer.Program</StartupObject>
+    <Title>RadioNavTrainer</Title>
+    <Authors>Nicolas Guinet</Authors>
+    <Description>Radionanigation trainer</Description>
+    <RepositoryUrl>https://github.com/guinetn/radionavtrainer</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/guinetn/radionavtrainer</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <ApplicationIcon>manche_air.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\AboutForm.gif" />
+    <None Remove="img\Close.gif" />
+    <None Remove="img\manche_air.ico" />
+    <None Remove="img\vor.bmp" />
+    <None Remove="Resources\RadioNavTrainer.en.resources" />
+    <None Remove="Resources\RadioNavTrainer.resources" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="manche_air.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="img\AboutForm.gif" />
+    <EmbeddedResource Include="img\Close.gif" />
+    <EmbeddedResource Include="img\manche_air.ico" />
+    <EmbeddedResource Include="img\vor.bmp" />
+    <EmbeddedResource Include="Resources\RadioNavTrainer.en.resources" />
+    <EmbeddedResource Include="Resources\RadioNavTrainer.resources" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Instruments\Instruments.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

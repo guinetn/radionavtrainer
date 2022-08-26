@@ -1,0 +1,3 @@
+Transparence: 
+Faire fond bleu
+Enregistrer en gif avec un pickColor "bleu"

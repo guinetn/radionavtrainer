@@ -1,0 +1,31 @@
+#navterms
+nt_cap = Cap
+nt_tauxvirage = Taux virage
+nt_vent = Vent
+nt_pasvent = Pas de vent
+nt_tracezvent = Tracez le vent puis pressez [V]
+nt_mesure = Mesure
+nt_vpropre = Vp
+nt_vsol = Vsol
+nt_crosswind = Vtr
+nt_headwind = Vfc
+
+#commandes clavier
+cmd_clavier = Commandes clavier:
+cmd_obas = "[Haut][Bas]  Accélérer/Ralentir"
+cmd_droitgo = [Gauche][Droite]   Augmenter/réduire le taux de virage  (°/sec)
+cmd_espace = [Espace]   Tout droit (inclinaison nulle)
+cmd_p = [P]  Pause
+cmd_i = [I]  Initialiser
+cmd_x = [X]  Exercice (trouvez les balises)
+cmd_t = [T]  Tracer la trajectoire 
+cmd_r = [R]  Mode règle (mesure de distance)
+cmd_v = [V]  Mode vent (définir,activer,off)
+cmd_e = [E]  Changer d'echelle 
+cmd_c = [C]  Chronomètre (ready,off,reset) 
+cmd_b = [B]  Affichage des balises/radiales
+
+cmd_mouse = Commandes souris:
+cmd_move = Déplacer les objets: cliquez, déplacez, relachez
+cmd_l = [L] Langue (FR/US)
+cmd_h = [H] Aide

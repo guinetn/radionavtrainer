@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9pVb2FytyYGnAh5f3V6ZcSKWQSQ8O/SZUX7BZL/ozbzYo6TsPdcgGBRppr6pcKRJ5AJHwepq+TS8eOXGHoNtVA==",
+  "success": true,
+  "projectFilePath": "K:\\@ng\\app\\assets\\books\\dotnet\\`\\@my_cs_apps\\aero\\RadioNavTrainer2022\\RadioNavTrainer\\RadioNavTrainer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.0\\microsoft.windowsdesktop.app.ref.6.0.0.nupkg.sha512",
+    "C:\\Users\\nguin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.0\\microsoft.netcore.app.ref.6.0.0.nupkg.sha512",
+    "C:\\Users\\nguin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.0\\microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512",
+    "C:\\Users\\nguin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.1\\microsoft.netcore.app.host.win-x64.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

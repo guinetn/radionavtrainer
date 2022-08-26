@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RadioNavTrainer/1.0.0": {
+        "dependencies": {
+          "Instruments": "1.0.0"
+        },
+        "runtime": {
+          "RadioNavTrainer.dll": {}
+        },
+        "resources": {
+          "en/RadioNavTrainer.resources.dll": {
+            "locale": "en"
+          }
+        }
+      },
+      "Instruments/1.0.0": {
+        "runtime": {
+          "Instruments.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RadioNavTrainer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Instruments/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<UseWindowsForms>true</UseWindowsForms>
+	<Authors>Nicolas Guinet</Authors>
+	<PackageProjectUrl>https://github.com/guinetn/radionavtrainer</PackageProjectUrl>
+	<PackageReadmeFile>readme.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/guinetn/radionavtrainer</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Instruments.Navigation.AdfRmi.Nav_AdfRmi.resources" />
+    <None Remove="Instruments.Navigation.Compas.Nav_Compas.resources" />
+    <None Remove="Instruments.Navigation.Nav_Basic.resources" />
+    <None Remove="Instruments.Navigation.RoseCaps.Nav_RoseCaps.resources" />
+    <None Remove="Instruments.Navigation.VorHsi.Nav_VorHsi.resources" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Instruments.Navigation.AdfRmi.Nav_AdfRmi.resources" />
+    <EmbeddedResource Include="Instruments.Navigation.Compas.Nav_Compas.resources" />
+    <EmbeddedResource Include="Instruments.Navigation.Nav_Basic.resources" />
+    <EmbeddedResource Include="Instruments.Navigation.RoseCaps.Nav_RoseCaps.resources" />
+    <EmbeddedResource Include="Instruments.Navigation.VorHsi.Nav_VorHsi.resources" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\RadioNavTrainer2022\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+#navterms
+nt_cap = Heading
+nt_tauxvirage = Turn rate
+nt_vent = Wind
+nt_pasvent = No Wind
+nt_tracezvent = Draw Wind, then press [V]
+nt_mesure = Measure
+nt_vpropre = TAS
+nt_vsol = GS
+nt_crosswind = CR
+nt_headwind = HD
+
+#commandes clavier
+cmd_clavier = Keyboard Commands:
+cmd_obas = [Up][Dn]  Accelerate/Slow Down
+cmd_droitgo = [Left][Right]   Increase/Decrease turn rate (°/sec)
+cmd_espace = [Space]   Stop turn (turn rate 0°)
+cmd_p = [P]  Pause
+cmd_i = [I]  Init
+cmd_x = [X]  Exercice (find balises)
+cmd_t = [T]  Path markers
+cmd_r = [R]  Rule mode (distance measuring)
+cmd_v = [V]  Wind mode (set, active, off)
+cmd_e = [E]  To change scale 
+cmd_c = [C]  Chronometer (ready,off,reset) 
+cmd_b = [B]  Show/hide balises
+
+cmd_mouse = Mouse commands:
+cmd_move = Move objects: clic, drag and drop
+cmd_l = [L] Language (FR/US)
+cmd_h = [H] Help
